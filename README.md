@@ -2,7 +2,7 @@
 <img align="center" src="https://user-images.githubusercontent.com/30548669/215224890-e3848de4-342e-49a7-ac43-a27e1af08584.png" width="70%"/>
 </p>
 
-
+installation guide - Video: https://plus.saiunes.com/t/install-streamsaiunes-tool
 # SaiUnes Streaming TOOL
 
 ## Requirement
