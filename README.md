@@ -9,69 +9,67 @@ installation guide - Video: https://plus.saiunes.com/t/install-streamsaiunes-too
 UBUNTU 22.04 LTS
 
 ## install SaiUnes Streaming TOOL 
-> copy and page the below commands on your ubuntu server terminal to install required packages by SaiUnes streaming app
+> 1- Upload the installer by using this command
 ```
-wget https://github.com/saiunes/streamSaiUnes/releases/download/v2.97/install
+wget https://github.com/saiunes/streamSaiUnes/releases/download/v3.18/install
+```
+> 2- give 777 permission
+```
 chmod 777 install
+```
+> 3- install the streamSaiUnes tool
+```
 ./install
+```
+> 4- Enter to the streamSaiUnes tool directory
+```
 cd streamSaiUnes
+```
+> 5- give 777 permission
+```
 chmod 777 streamSaiUnes
 ```
+> 6- Done :)
+
 
 ## Update SaiUnes Streaming TOOL to the latest version
-> copy and page the below commands on your ubuntu server terminal to Update the tool
+
+> 1- Enter to the streamSaiUnes tool directory
 ```
 cd /root/streamSaiUnes
-rm streamSaiUnes
-rm licence
-rm README.md
-cd ..
-wget https://github.com/saiunes/streamSaiUnes/releases/download/v2.97/install
+```
+> 2- Remove old files and data
+```
+rm streamSaiUnes && rm licence && rm README.md
+```
+> 3- back to the root folder
+```
+cd /root
+```
+> 4- Download the new installer
+```
+wget https://github.com/saiunes/streamSaiUnes/releases/download/v3.18/install
+```
+> 5- give 777 permission
+```
 chmod 777 install
+```
+> 6- install the streamSaiUnes tool
+```
 ./install
+```
+> 7- Enter to the streamSaiUnes tool directory
+```
 cd streamSaiUnes
+```
+
+> 8- give 777 permission
+```
 chmod 777 streamSaiUnes
 ```
+> 6- Done :)
 
 
 
-## Upload .mp4 file
-> The *.mp4 file must be uploaded into the video dir located at: /root/streamSaiUnes/video
-> Whether you're a mac or a windows user, you can easily upload *.mp4 files to your ubuntu server and start streaming 24/7.  SaiUnes dedicated FREE course on how to Build a Radio channel Business and start making at least £100[GBP] per year, scroll down to the part where we've described how to  upload files to your server
-
-## Start the SaiUnes streaming app
-copy and page the command below, and follow the app output guide
-```
-./streamSaiUnes
-```
-## Stop the SaiUnes streaming app
-use CTR key + C to stop the streaming
-
-# How to stream 24/7 non stop?
-We will need to use Tmux command
-```
-tmux
-```
-
-Next run the streamSaiUnes app
-```
-./streamSaiUnes
-```
-Follow the steps and run your stream <br/>
-Once done close the tmux window by following these steps <br/>
-ON MACOS: CTR+B and then click on D <br/>
-ON WINDOWS: CTR+B and then click on X <br/>
-
-
-## HOW TO STOP THE STREAM
-Type this comand to list the curent runing tmux windows
-```
-tmux ls
-```
-Now kill that window by typing
-```
-tmux kill-session -a
-```
-Replace *a* with the window number from the ls comand
-
-
+## Run a stream 24/7 on YouTube/Facebook/TikTok/instagram
+> Full Tutorial: https://plus.saiunes.com/t/install-streamsaiunes-tool
