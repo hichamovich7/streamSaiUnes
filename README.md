@@ -23,13 +23,7 @@ chmod 777 install
 ```
 > 4- Enter to the streamSaiUnes tool directory
 ```
-cd streamSaiUnes
-```
-> 5- give 777 permission
-```
-chmod 777 streamSaiUnes
-```
-> 6- Done :)
+> 5- Done :)
 
 
 ## Update SaiUnes Streaming TOOL to the latest version
@@ -58,16 +52,7 @@ chmod 777 install
 ```
 ./install
 ```
-> 7- Enter to the streamSaiUnes tool directory
-```
-cd streamSaiUnes
-```
-
-> 8- give 777 permission
-```
-chmod 777 streamSaiUnes
-```
-> 6- Done :)
+> 7- Done :)
 
 
 
