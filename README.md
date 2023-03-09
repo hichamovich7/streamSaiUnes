@@ -23,8 +23,9 @@ chmod 777 install
 ```
 > 4- Enter to the streamSaiUnes tool directory
 ```
-> 5- Done :)
+cd /root/streamSaiUnes
 ```
+> 5- Done :)
 
 ## Update SaiUnes Streaming TOOL to the latest version
 
